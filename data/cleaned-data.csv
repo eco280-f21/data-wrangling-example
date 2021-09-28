@@ -1,4 +1,4 @@
-State,file_week_end,initial claims,claim_week_end,continued_claims,covered_employment,unemployment_rate
+state,file_week_end,initial claims,claim_week_end,continued_claims,covered_employment,unemployment_rate
 Alabama,1/2/2016,"6,574",12/26/2015,"26,579","1,816,714",1.46
 Alabama,1/9/2016,"8,151",1/2/2016,"31,509","1,823,207",1.73
 Alabama,1/16/2016,"4,737",1/9/2016,"25,695","1,823,207",1.41

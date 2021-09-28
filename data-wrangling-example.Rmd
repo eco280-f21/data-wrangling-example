@@ -42,4 +42,4 @@ Plot the monthly summaries just computed.
 
 ## Find the weeks when new claims changed the most in MA
 
-Compute the change in new claims by week for the MA data only. Which six weeks saw the largest increase in new claims? Which six weeks saw the smallest increase in new claims?
+Compute the change in new claims by week for both the CT and MA data. Using this data, list the six weeks that saw the largest increase in new claims in MA and then separately list the six weeks that saw the larges decrease in new claims in MA.
