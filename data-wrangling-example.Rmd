@@ -1,0 +1,45 @@
+---
+title: "Data wrangling example"
+author: "Name"
+date: "9/27/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Purpose
+In this exercise, we're going to practice using the five key "verbs" of data manipulation. We'll do our tasks in both R and Stata. 
+
+## Import data
+Before class, I created the repo and added several files to the data folder. These are described in the data/README.md file. This provides an example of a way to document data in a situation where some manually editing of an Excel file might be required. (I probably could have worked around this with code, but this was easier and is still a legitimate way of providing reproducibility.)
+
+Our task is to import the data and make sure the date variables are treated that way.
+```{r import data}
+
+```
+
+## Verify computation of the unemployment rate
+
+To do this, we will compute the unemployment rate from the other variables and look for observations where this computation doesn't match the one in the file.
+
+```{r check unemployment rate calculation}
+
+```
+
+## Create a CT/MA subsample
+
+Create a small dataset including only CT and MA data and include only the variable for the state, file week, initial claims, and claim week. 
+
+## Compute monthly totals by state
+
+For each month (eg. Dec 2020, Jan 2021, Feb 2021), compute the total new claims filed for weeks that ended in that month and the average number of claims for weeks ending in that month.
+
+## Plot the data
+
+Plot the monthly summaries just computed.
+
+## Find the weeks when new claims changed the most in MA
+
+Compute the change in new claims by week for the MA data only. Which six weeks saw the largest increase in new claims? Which six weeks saw the smallest increase in new claims?
